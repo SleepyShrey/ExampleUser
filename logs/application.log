@@ -1,0 +1,38 @@
+2025-02-14T17:23:43.900+05:30  INFO 30456 --- [main] b.c.d.examples.UserProductApplication    : Starting UserProductApplication using Java 17.0.12 with PID 30456 (D:\Downloads\example\user-project\target\classes started by shreyas.bs in D:\Downloads\example\user-project)
+2025-02-14T17:23:43.903+05:30  INFO 30456 --- [main] b.c.d.examples.UserProductApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-02-14T17:23:44.736+05:30  INFO 30456 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-14T17:23:44.824+05:30  INFO 30456 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 3 JPA repository interfaces.
+2025-02-14T17:23:45.421+05:30  INFO 30456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-14T17:23:45.430+05:30  INFO 30456 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-14T17:23:45.431+05:30  INFO 30456 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-14T17:23:45.497+05:30  INFO 30456 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-14T17:23:45.497+05:30  INFO 30456 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1529 ms
+2025-02-14T17:23:45.662+05:30  INFO 30456 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-14T17:23:45.706+05:30  INFO 30456 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-14T17:23:45.738+05:30  INFO 30456 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-14T17:23:45.970+05:30  INFO 30456 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-14T17:23:46.004+05:30  INFO 30456 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-14T17:23:46.259+05:30  INFO 30456 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d90644f
+2025-02-14T17:23:46.269+05:30  INFO 30456 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-14T17:23:46.314+05:30  WARN 30456 --- [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-14T17:23:46.315+05:30  WARN 30456 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-02-14T17:23:46.332+05:30  INFO 30456 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-14T17:23:47.063+05:30  INFO 30456 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-14T17:23:47.142+05:30  INFO 30456 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-14T17:23:47.389+05:30  INFO 30456 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-02-14T17:23:47.890+05:30  WARN 30456 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-14T17:23:47.928+05:30  INFO 30456 --- [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-02-14T17:23:48.351+05:30  INFO 30456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-14T17:23:48.360+05:30  INFO 30456 --- [main] b.c.d.examples.UserProductApplication    : Started UserProductApplication in 4.918 seconds (process running for 5.397)
+2025-02-14T17:25:38.543+05:30  INFO 30456 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-14T17:25:38.543+05:30  INFO 30456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-14T17:25:38.543+05:30  INFO 30456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-02-14T17:25:38.655+05:30  INFO 30456 --- [http-nio-8080-exec-1] b.c.d.e.controller.UserController        : Posting User data.
+2025-02-14T17:25:38.754+05:30  INFO 30456 --- [http-nio-8080-exec-1] b.c.d.examples.service.UserServiceImpl   : User Saved successfully.
